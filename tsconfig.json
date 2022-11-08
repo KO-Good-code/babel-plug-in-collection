@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "baseUrl": ".",
+      "paths": { "*": ["package/types/*"] },
+      "module": "esnext",
+      "target": "esnext",
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "outDir": "dist",
+      "lib": ["es6", "dom"],
+      "sourceMap": true,
+      "types": [
+        "node"
+      ]
+  },
+  "include": [
+    "package/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "babel-plugin-add-trycatch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -cw",
+    "build:ts": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/helper-module-imports": "^7.18.6"
+  },
+  "dependencies": {
+    "babel-template": "^6.26.0"
+  }
+}

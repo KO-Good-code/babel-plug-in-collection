@@ -1,0 +1,16 @@
+{
+  "presets": [
+    ["@babel/env",{
+      "targets": {
+         "node": "current"
+      }
+   }]
+    
+  ],
+  "plugins": [
+    ["babel-plugin-add-toFun"
+    ,{
+      "FunName": "add"
+    }]
+  ]
+}
